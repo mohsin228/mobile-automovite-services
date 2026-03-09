@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* custom global styles */
+* {
+  @apply box-border;
+}
+
+html, body {
+  @apply bg-gray-900 text-gray-100 h-full w-full;
+}
